@@ -23,7 +23,9 @@ O trabalho foi desenvolvido no contexto da disciplina de Cloud Computing do curs
 - DockerHub (imagem publicada)
 
 ## Estrutura do Projeto
-trabalho03-cloud-shell/
+
+```
+trabalho03-fotosocial/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── README.md
@@ -45,8 +47,11 @@ trabalho03-cloud-shell/
 ├── backups/
 ├── logs/
 └── evidencias/
+```
 
 Diretorios da aplicacao dentro do container:
+
+```
 /app/fotosocial/
 ├── fotos/originais/
 ├── fotos/processadas/
@@ -62,6 +67,7 @@ Diretorios da aplicacao dentro do container:
 ├── publicacoes/stories/
 ├── logs/
 └── backups/
+```
 
 ## Como Executar
 
@@ -72,8 +78,8 @@ Diretorios da aplicacao dentro do container:
 ### 1. Clonar o repositorio
 
 ```bash
-git clone <url-do-repositorio>
-cd trabalho03-cloud-shell
+git clone https://github.com/VINIMACEDO010/trabalho03-fotosocial.git
+cd trabalho03-fotosocial
 ```
 
 ### 2. Subir o container
@@ -105,7 +111,10 @@ chmod +x *.sh
 ## Como Acessar o Apache no Navegador
 
 Apos subir o container, acesse:
+
+```
 http://localhost:8080
+```
 
 ## Scripts Disponiveis
 
@@ -125,14 +134,19 @@ http://localhost:8080
 ## Como Executar Cada Script
 
 ```bash
+# Dentro do container, na pasta /app/scripts:
+
 ./01_update.sh
 ./02_apache.sh
 ./03_estrutura.sh
 ./04_backup.sh
 ./05_deploy.sh
+
+# Script de processos aceita parametros:
 ./06_processos.sh listar
 ./06_processos.sh buscar apache2
 ./06_processos.sh matar 1234
+
 ./07_monitoramento.sh
 ./08_usuarios_permissoes.sh
 ./09_relatorio.sh
@@ -145,20 +159,37 @@ cd /app/scripts
 ./menu.sh
 ```
 
+O menu exibe opcoes numeradas de 0 a 9 para executar cada rotina interativamente.
+
 ## Evidencias
 
-Ver pasta evidencias/ no repositorio com prints de:
-- Container em execucao
-- Volume Docker configurado
-- Scripts com permissao de execucao
-- Execucao de cada script
-- Site acessivel em http://localhost:8080
-- Backup .tar.gz gerado
-- Relatorio operacional gerado
-- Imagem publicada no DockerHub
+Ver pasta `evidencias/` no repositorio com prints de:
+
+- EVIDENCIA_25 - Container em execucao (docker ps)
+- EVIDENCIA_26 - Volume Docker configurado
+- EVIDENCIA_27 - Scripts com permissao de execucao
+- EVIDENCIA_28 - Execucao do script 01_update.sh
+- EVIDENCIA_29 - Instalacao e validacao do Apache
+- EVIDENCIA_30 - Estrutura de diretorios criada
+- EVIDENCIA_31 - Backup .tar.gz gerado
+- EVIDENCIA_32 - Deploy realizado para /var/www/html
+- EVIDENCIA_33 - Site acessivel em http://localhost:8080
+- EVIDENCIA_34 - Monitoramento do sistema (CPU, RAM, disco)
+- EVIDENCIA_35 - Usuarios e permissoes configurados
+- EVIDENCIA_36 - Relatorio operacional gerado
+- EVIDENCIA_37 - Imagem publicada no DockerHub
+
+## GitHub
+
+https://github.com/VINIMACEDO010/trabalho03-fotosocial
 
 ## DockerHub
+
 https://hub.docker.com/r/vinimacedo010/trabalho03-fotosocial
+
+```bash
+docker pull vinimacedo010/trabalho03-fotosocial:latest
+```
 
 ## Uso de IA
 
@@ -177,3 +208,4 @@ Ferramenta utilizada: Claude (Anthropic)
 - Gerenciamento do Apache em containers Docker sem systemd requer uso de apache2ctl em vez de systemctl
 - Permissoes de diretorio precisam de atencao especial para nao usar chmod 777 desnecessariamente
 - O calculo de CPU foi feito via /proc/stat para garantir compatibilidade com Ubuntu sem dependencias extras
+- Configuracao correta do volume persistente para sincronizar backups e logs com o host Windows
