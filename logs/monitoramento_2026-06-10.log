@@ -1,0 +1,24 @@
+============================================
+  [FOTOSOCIAL] Monitoramento do Sistema
+  10/06/2026 17:38:16
+============================================
+[CPU] Uso atual: 6%
+[OK] CPU dentro do limite.
+[RAM] Total: 7785MB | Usada: 521MB | Livre: 5273MB (7%)
+[OK] Memoria dentro do limite.
+[DISCO] Total:1007G | Usado:9.7G | Livre:946G (2% usado)
+[OK] Espaco em disco suficiente.
+[OK] Apache em execucao - site disponivel.
+[INFO] Monitoramento concluido.
+============================================
+  [FOTOSOCIAL] Monitoramento do Sistema
+  10/06/2026 22:31:17
+============================================
+[CPU] Uso atual: 1%
+[OK] CPU dentro do limite.
+[RAM] Total: 7785MB | Usada: 501MB | Livre: 6996MB (6%)
+[OK] Memoria dentro do limite.
+[DISCO] Total:1007G | Usado:9.7G | Livre:946G (2% usado)
+[OK] Espaco em disco suficiente.
+[OK] Apache em execucao - site disponivel.
+[INFO] Monitoramento concluido.

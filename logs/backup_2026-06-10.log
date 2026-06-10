@@ -1,0 +1,65 @@
+[INFO] Iniciando backup da Rede Social de Fotos...
+[INFO] Destino: /app/fotosocial/backups/backup_fotosocial_2026-06-10_17-38.tar.gz
+[OK] Backup criado: backup_fotosocial_2026-06-10_17-38.tar.gz
+[INFO] Validando backup...
+[OK] Backup validado! Tamanho: 4.0K
+[INFO] Conteudo (primeiros 10 itens):
+fotosocial/
+fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}/
+fotosocial/fotos/
+fotosocial/fotos/pendentes_moderacao/
+fotosocial/fotos/originais/
+fotosocial/fotos/originais/.gitkeep
+fotosocial/fotos/processadas/
+fotosocial/usuarios/
+fotosocial/usuarios/perfis/
+fotosocial/usuarios/avatares/
+-rw-r--r-- 1 root root 2.7K Jun 10 17:38 /app/fotosocial/backups/backup_fotosocial_2026-06-10_17-38.tar.gz
+[OK] Backup concluido!
+[INFO] Iniciando backup da Rede Social de Fotos...
+[INFO] Destino: /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-27.tar.gz
+tar: fotosocial/logs/deploy_2026-06-10.log: file changed as we read it
+tar: fotosocial/logs/monitoramento_2026-06-10.log: file changed as we read it
+tar: fotosocial/logs/relatorio_execucao.txt: file changed as we read it
+tar: fotosocial/logs/usuarios_2026-06-10.log: file changed as we read it
+[ERRO] Falha ao criar backup.
+[INFO] Iniciando backup da Rede Social de Fotos...
+[INFO] Destino: /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-28.tar.gz
+[OK] Backup criado: backup_fotosocial_2026-06-10_22-28.tar.gz
+[INFO] Validando backup...
+[OK] Backup validado! Tamanho: 8.0K
+[INFO] Conteudo (primeiros 10 itens):
+fotosocial/
+fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}/
+fotosocial/fotos/
+fotosocial/fotos/pendentes_moderacao/
+fotosocial/fotos/originais/
+fotosocial/fotos/originais/.gitkeep
+fotosocial/fotos/processadas/
+fotosocial/usuarios/
+fotosocial/usuarios/perfis/
+fotosocial/usuarios/avatares/
+-rwx------ 1 root root 2.7K Jun 10 17:38 /app/fotosocial/backups/backup_fotosocial_2026-06-10_17-38.tar.gz
+-rw-r--r-- 1 root root 4.3K Jun 10 22:27 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-27.tar.gz
+-rw-r--r-- 1 root root 4.4K Jun 10 22:28 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-28.tar.gz
+[OK] Backup concluido!
+[INFO] Iniciando backup da Rede Social de Fotos...
+[INFO] Destino: /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-28.tar.gz
+[OK] Backup criado: backup_fotosocial_2026-06-10_22-28.tar.gz
+[INFO] Validando backup...
+[OK] Backup validado! Tamanho: 8.0K
+[INFO] Conteudo (primeiros 10 itens):
+fotosocial/
+fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}/
+fotosocial/fotos/
+fotosocial/fotos/pendentes_moderacao/
+fotosocial/fotos/originais/
+fotosocial/fotos/originais/.gitkeep
+fotosocial/fotos/processadas/
+fotosocial/usuarios/
+fotosocial/usuarios/perfis/
+fotosocial/usuarios/avatares/
+-rwx------ 1 root root 2.7K Jun 10 17:38 /app/fotosocial/backups/backup_fotosocial_2026-06-10_17-38.tar.gz
+-rw-r--r-- 1 root root 4.3K Jun 10 22:27 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-27.tar.gz
+-rw-r--r-- 1 root root 4.5K Jun 10 22:28 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-28.tar.gz
+[OK] Backup concluido!

@@ -1,0 +1,68 @@
+[INFO] Instalando Apache2...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apache2 is already the newest version (2.4.52-1ubuntu4.21).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[OK] Apache instalado.
+[INFO] Instalando ImageMagick (processamento de fotos)...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+imagemagick is already the newest version (8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[OK] ImageMagick instalado.
+ * Starting Apache httpd web server apache2
+ * 
+[INFO] Apache iniciado.
+[INFO] Verificando Apache...
+[OK] Apache esta instalado.
+[OK] Apache em execucao.
+[INFO] Versao do Apache:
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+[INFO] Versao do ImageMagick:
+Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org
+Copyright: (C) 1999-2021 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+[OK] Ambiente web configurado!
+[INFO] Instalando Apache2...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apache2 is already the newest version (2.4.52-1ubuntu4.21).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[OK] Apache instalado.
+[INFO] Instalando ImageMagick (processamento de fotos)...
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+imagemagick is already the newest version (8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[OK] ImageMagick instalado.
+ * Starting Apache httpd web server apache2
+ * 
+[INFO] Apache iniciado.
+[INFO] Verificando Apache...
+[OK] Apache esta instalado.
+[OK] Apache em execucao.
+[INFO] Versao do Apache:
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+[INFO] Versao do ImageMagick:
+Version: ImageMagick 6.9.11-60 Q16 x86_64 2021-01-25 https://imagemagick.org
+Copyright: (C) 1999-2021 ImageMagick Studio LLC
+License: https://imagemagick.org/script/license.php
+[OK] Ambiente web configurado!

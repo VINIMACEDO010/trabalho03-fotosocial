@@ -1,0 +1,58 @@
+[INFO] Criando grupos...
+[OK] Grupo 'foto_ops' criado (operadores de fotos).
+[OK] Grupo 'foto_moderacao' criado (moderadores).
+[INFO] Criando usuarios...
+[OK] Usuario 'thumb_worker' criado.
+[OK] Usuario 'foto_moderador' criado.
+[INFO] Configurando permissoes...
+[OK] /app/fotosocial/fotos/originais -> root:foto_ops (chmod 750)
+[OK] /app/fotosocial/fotos/pendentes_moderacao -> root:foto_moderacao (chmod 770)
+[OK] /app/fotosocial/thumbnails -> root:foto_ops (chmod 755)
+[OK] /app/fotosocial/backups -> root:root (chmod 700)
+foto_ops:x:1000:
+foto_moderacao:x:1001:
+uid=999(thumb_worker) gid=1000(foto_ops) groups=1000(foto_ops)
+uid=998(foto_moderador) gid=1001(foto_moderacao) groups=1001(foto_moderacao)
+total 44
+drwxr-xr-x 1 root root     4096 Jun 10 17:38 .
+drwxr-xr-x 1 root root     4096 Jun 10 17:33 ..
+drwxr-xr-x 4 root root     4096 Jun 10 17:38 albums
+drwx------ 1 root root      512 Jun 10 17:38 backups
+-rw-r--r-- 1 root root      150 Jun 10 17:38 config.txt
+drwxr-xr-x 5 root root     4096 Jun 10 17:38 fotos
+drwxrwxrwx 1 root root      512 Jun 10 17:38 logs
+drwxr-xr-x 5 root root     4096 Jun 10 17:38 publicacoes
+drwxr-xr-x 3 root root     4096 Jun 10 17:38 temp
+drwxr-xr-x 5 root foto_ops 4096 Jun 10 17:38 thumbnails
+drwxr-xr-x 4 root root     4096 Jun 10 17:38 usuarios
+drwxr-xr-x 2 root root     4096 Jun 10 17:32 {fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+[OK] Usuarios e permissoes configurados!
+[INFO] Criando grupos...
+[INFO] Grupo 'foto_ops' ja existe.
+[INFO] Grupo 'foto_moderacao' ja existe.
+[INFO] Criando usuarios...
+[INFO] Usuario 'thumb_worker' ja existe.
+[INFO] Usuario 'foto_moderador' ja existe.
+[INFO] Configurando permissoes...
+[OK] /app/fotosocial/fotos/originais -> root:foto_ops (chmod 750)
+[OK] /app/fotosocial/fotos/pendentes_moderacao -> root:foto_moderacao (chmod 770)
+[OK] /app/fotosocial/thumbnails -> root:foto_ops (chmod 755)
+[OK] /app/fotosocial/backups -> root:root (chmod 700)
+foto_ops:x:1000:
+foto_moderacao:x:1001:
+uid=999(thumb_worker) gid=1000(foto_ops) groups=1000(foto_ops)
+uid=998(foto_moderador) gid=1001(foto_moderacao) groups=1001(foto_moderacao)
+total 44
+drwxr-xr-x 1 root root     4096 Jun 10 22:27 .
+drwxr-xr-x 1 root root     4096 Jun 10 17:33 ..
+drwxr-xr-x 4 root root     4096 Jun 10 22:27 albums
+drwx------ 1 root root      512 Jun 10 22:28 backups
+-rw-r--r-- 1 root root      150 Jun 10 22:27 config.txt
+drwxr-xr-x 5 root root     4096 Jun 10 22:27 fotos
+drwxrwxrwx 1 root root      512 Jun 10 17:38 logs
+drwxr-xr-x 5 root root     4096 Jun 10 22:27 publicacoes
+drwxr-xr-x 3 root root     4096 Jun 10 22:27 temp
+drwxr-xr-x 5 root foto_ops 4096 Jun 10 22:27 thumbnails
+drwxr-xr-x 4 root root     4096 Jun 10 22:27 usuarios
+drwxr-xr-x 2 root root     4096 Jun 10 17:32 {fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+[OK] Usuarios e permissoes configurados!

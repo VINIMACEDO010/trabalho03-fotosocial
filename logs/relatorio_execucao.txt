@@ -1,0 +1,67 @@
+============================================================
+  RELATORIO OPERACIONAL - REDE SOCIAL DE FOTOS
+============================================================
+  Aluno:      Vinicius Policarpo Macedo
+  Tema:       14 - Infraestrutura para Rede Social de Fotos
+  Curso:      Sistemas de Informacao - UNIDAVI
+  Disciplina: Cloud Computing
+  Data/Hora:  10/06/2026 22:32:26
+============================================================
+
+--- USO DE DISCO ---
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  9.7G  946G   2% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+C:\             455G  403G   53G  89% /app/source
+/dev/sde       1007G  9.7G  946G   2% /etc/hosts
+tmpfs           3.9G     0  3.9G   0% /proc/acpi
+tmpfs           3.9G     0  3.9G   0% /proc/scsi
+tmpfs           3.9G     0  3.9G   0% /sys/firmware
+
+--- DIRETORIOS DO PROJETO ---
+12K	/app/fotosocial/albums
+20K	/app/fotosocial/backups
+4.0K	/app/fotosocial/config.txt
+16K	/app/fotosocial/fotos
+40K	/app/fotosocial/logs
+16K	/app/fotosocial/publicacoes
+8.0K	/app/fotosocial/temp
+16K	/app/fotosocial/thumbnails
+12K	/app/fotosocial/usuarios
+4.0K	/app/fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+
+--- STATUS DO APACHE ---
+Apache: EM EXECUCAO
+Server version: Apache/2.4.52 (Ubuntu)
+Server built:   2026-06-03T15:42:24
+
+--- BACKUPS DISPONIVEIS ---
+-rwx------ 1 root root 2.7K Jun 10 17:38 /app/fotosocial/backups/backup_fotosocial_2026-06-10_17-38.tar.gz
+-rwx------ 1 root root 4.3K Jun 10 22:27 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-27.tar.gz
+-rwx------ 1 root root 4.5K Jun 10 22:28 /app/fotosocial/backups/backup_fotosocial_2026-06-10_22-28.tar.gz
+
+--- LOGS GERADOS ---
+-rw-r--r-- 1 root root 2.4K Jun 10 22:24 /app/fotosocial/logs/apache_2026-06-10.log
+-rw-r--r-- 1 root root 3.1K Jun 10 22:28 /app/fotosocial/logs/backup_2026-06-10.log
+-rw-r--r-- 1 root root  876 Jun 10 22:28 /app/fotosocial/logs/deploy_2026-06-10.log
+-rw-r--r-- 1 root root 3.0K Jun 10 22:27 /app/fotosocial/logs/estrutura_2026-06-10.log
+-rw-r--r-- 1 root root  902 Jun 10 22:31 /app/fotosocial/logs/monitoramento_2026-06-10.log
+-rw-r--r-- 1 root root 8.9K Jun 10 22:24 /app/fotosocial/logs/update_2026-06-10.log
+-rw-r--r-- 1 root root 2.8K Jun 10 22:31 /app/fotosocial/logs/usuarios_2026-06-10.log
+
+--- ARQUIVOS NO APACHE ---
+total 16K
+-rwxr-xr-x 1 root root 7.7K Jun 10 22:28 index.html
+-rwxr-xr-x 1 root root 6.1K Jun 10 22:28 sobre.html
+
+--- USUARIOS E GRUPOS ---
+foto_ops:x:1000:
+foto_moderacao:x:1001:
+uid=999(thumb_worker) gid=1000(foto_ops) groups=1000(foto_ops)
+uid=998(foto_moderador) gid=1001(foto_moderacao) groups=1001(foto_moderacao)
+
+============================================================
+  FIM DO RELATORIO
+  Gerado por: 09_relatorio.sh
+============================================================

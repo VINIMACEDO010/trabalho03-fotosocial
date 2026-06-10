@@ -1,0 +1,15 @@
+services:
+  fotosocial:
+    build: .
+    container_name: trabalho03-linux
+    ports:
+      - "8080:80"
+    volumes:
+      - ./scripts:/app/scripts
+      - ./source:/app/source
+      - ./backups:/app/fotosocial/backups
+      - ./logs:/app/fotosocial/logs
+      - ./evidencias:/app/evidencias
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

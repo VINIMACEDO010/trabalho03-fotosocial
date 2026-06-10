@@ -1,0 +1,93 @@
+[INFO] Removendo estrutura antiga...
+[OK] Estrutura antiga removida.
+[INFO] Criando diretorios da Rede Social de Fotos...
+[OK] Diretorios criados.
+[INFO] Criando arquivos iniciais...
+[OK] Arquivos iniciais criados.
+/app/fotosocial
+/app/fotosocial/albums
+/app/fotosocial/albums/privados
+/app/fotosocial/albums/publicos
+/app/fotosocial/backups
+/app/fotosocial/fotos
+/app/fotosocial/fotos/originais
+/app/fotosocial/fotos/pendentes_moderacao
+/app/fotosocial/fotos/processadas
+/app/fotosocial/logs
+/app/fotosocial/publicacoes
+/app/fotosocial/publicacoes/arquivados
+/app/fotosocial/publicacoes/feed
+/app/fotosocial/publicacoes/stories
+/app/fotosocial/temp
+/app/fotosocial/temp/uploads
+/app/fotosocial/thumbnails
+/app/fotosocial/thumbnails/grande
+/app/fotosocial/thumbnails/medio
+/app/fotosocial/thumbnails/pequeno
+/app/fotosocial/usuarios
+/app/fotosocial/usuarios/avatares
+/app/fotosocial/usuarios/perfis
+/app/fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+[OK] Estrutura pronta!
+[INFO] Removendo estrutura antiga...
+[OK] Estrutura antiga removida.
+[INFO] Criando diretorios da Rede Social de Fotos...
+[OK] Diretorios criados.
+[INFO] Criando arquivos iniciais...
+[OK] Arquivos iniciais criados.
+/app/fotosocial
+/app/fotosocial/albums
+/app/fotosocial/albums/privados
+/app/fotosocial/albums/publicos
+/app/fotosocial/backups
+/app/fotosocial/fotos
+/app/fotosocial/fotos/originais
+/app/fotosocial/fotos/pendentes_moderacao
+/app/fotosocial/fotos/processadas
+/app/fotosocial/logs
+/app/fotosocial/publicacoes
+/app/fotosocial/publicacoes/arquivados
+/app/fotosocial/publicacoes/feed
+/app/fotosocial/publicacoes/stories
+/app/fotosocial/temp
+/app/fotosocial/temp/uploads
+/app/fotosocial/thumbnails
+/app/fotosocial/thumbnails/grande
+/app/fotosocial/thumbnails/medio
+/app/fotosocial/thumbnails/pequeno
+/app/fotosocial/usuarios
+/app/fotosocial/usuarios/avatares
+/app/fotosocial/usuarios/perfis
+/app/fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+[OK] Estrutura pronta!
+[INFO] Removendo estrutura antiga...
+[OK] Estrutura antiga removida.
+[INFO] Criando diretorios da Rede Social de Fotos...
+[OK] Diretorios criados.
+[INFO] Criando arquivos iniciais...
+[OK] Arquivos iniciais criados.
+/app/fotosocial
+/app/fotosocial/albums
+/app/fotosocial/albums/privados
+/app/fotosocial/albums/publicos
+/app/fotosocial/backups
+/app/fotosocial/fotos
+/app/fotosocial/fotos/originais
+/app/fotosocial/fotos/pendentes_moderacao
+/app/fotosocial/fotos/processadas
+/app/fotosocial/logs
+/app/fotosocial/publicacoes
+/app/fotosocial/publicacoes/arquivados
+/app/fotosocial/publicacoes/feed
+/app/fotosocial/publicacoes/stories
+/app/fotosocial/temp
+/app/fotosocial/temp/uploads
+/app/fotosocial/thumbnails
+/app/fotosocial/thumbnails/grande
+/app/fotosocial/thumbnails/medio
+/app/fotosocial/thumbnails/pequeno
+/app/fotosocial/usuarios
+/app/fotosocial/usuarios/avatares
+/app/fotosocial/usuarios/perfis
+/app/fotosocial/{fotos,albums,usuarios,thumbnails,publicacoes,logs,backups}
+[OK] Estrutura pronta!

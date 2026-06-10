@@ -1,0 +1,22 @@
+[INFO] Limpando diretorio de destino: /var/www/html
+[OK] Diretorio limpo.
+[INFO] Copiando arquivos de /app/source para /var/www/html...
+[OK] Arquivos publicados com sucesso.
+[INFO] Validando deploy...
+[OK] index.html encontrado em /var/www/html
+[INFO] Arquivos publicados:
+total 16K
+-rwxr-xr-x 1 root root 7.7K Jun 10 17:38 index.html
+-rwxr-xr-x 1 root root 6.1K Jun 10 17:38 sobre.html
+[OK] Site publicado! Acesse: http://localhost:8080
+[INFO] Limpando diretorio de destino: /var/www/html
+[OK] Diretorio limpo.
+[INFO] Copiando arquivos de /app/source para /var/www/html...
+[OK] Arquivos publicados com sucesso.
+[INFO] Validando deploy...
+[OK] index.html encontrado em /var/www/html
+[INFO] Arquivos publicados:
+total 16K
+-rwxr-xr-x 1 root root 7.7K Jun 10 22:28 index.html
+-rwxr-xr-x 1 root root 6.1K Jun 10 22:28 sobre.html
+[OK] Site publicado! Acesse: http://localhost:8080

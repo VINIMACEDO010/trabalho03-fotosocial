@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - FotoSocial</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fafafa; color: #262626; }
+        nav { background: #fff; border-bottom: 1px solid #dbdbdb; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; }
+        .logo { font-size: 1.6rem; font-weight: 700; color: #dc2743; }
+        .nav-links a { text-decoration: none; color: #262626; margin-left: 20px; font-weight: 600; font-size: 0.9rem; }
+        .page-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 60px 20px; }
+        .page-header h1 { font-size: 2.5rem; margin-bottom: 12px; }
+        .page-header p { font-size: 1.1rem; opacity: 0.9; }
+        .container { max-width: 800px; margin: 48px auto; padding: 0 20px; }
+        .card { background: white; border: 1px solid #dbdbdb; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+        .card h2 { font-size: 1.3rem; font-weight: 700; margin-bottom: 16px; border-left: 4px solid #764ba2; padding-left: 12px; }
+        .card p, .card li { font-size: 0.95rem; color: #444; line-height: 1.7; margin-bottom: 10px; }
+        .card ul { padding-left: 20px; }
+        .arch-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+        .arch-item { background: #f0f0f0; border-radius: 8px; padding: 16px; font-size: 0.875rem; }
+        .arch-item strong { display: block; margin-bottom: 4px; color: #262626; }
+        .arch-item span { color: #666; }
+        .dir-tree { background: #1e1e1e; color: #d4d4d4; border-radius: 8px; padding: 20px; font-family: monospace; font-size: 0.85rem; line-height: 1.8; overflow-x: auto; }
+        footer { background: white; border-top: 1px solid #dbdbdb; text-align: center; padding: 24px; color: #8e8e8e; font-size: 0.85rem; margin-top: 48px; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <span class="logo">&#128247; FotoSocial</span>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+</nav>
+
+<div class="page-header">
+    <h1>&#128203; Sobre o Projeto</h1>
+    <p>Infraestrutura Cloud para Rede Social de Fotos - Trabalho 03</p>
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>&#128100; Identificacao</h2>
+        <p><strong>Aluno:</strong> Vinicius Policarpo Macedo</p>
+        <p><strong>Tema:</strong> 14 - Infraestrutura para uma Rede Social de Fotos</p>
+        <p><strong>Disciplina:</strong> Cloud Computing - Sistemas de Informacao</p>
+        <p><strong>Instituicao:</strong> UNIDAVI</p>
+        <p><strong>Professor:</strong> Prof. Esp. Ademar Perfoll Junior</p>
+    </div>
+
+    <div class="card">
+        <h2>&#128216; Descricao do Cenario</h2>
+        <p>Este projeto simula a infraestrutura de uma <strong>rede social de compartilhamento de fotos</strong>, operada em um ambiente Linux containerizado com Docker. A aplicacao precisa de um servidor web para servir o conteudo estatico, um pipeline para processar imagens enviadas pelos usuarios (gerando thumbnails via ImageMagick), controle de permissoes por perfil de acesso e rotinas automatizadas de backup e monitoramento.</p>
+        <p>O ambiente foi desenvolvido simulando o papel de um profissional DevOps junior responsavel por preparar, automatizar e documentar toda a infraestrutura operacional da plataforma.</p>
+    </div>
+
+    <div class="card">
+        <h2>&#128295; Tecnologias Utilizadas</h2>
+        <div class="arch-grid">
+            <div class="arch-item"><strong>Docker + Docker Compose</strong><span>Containerizacao e orquestracao do ambiente Ubuntu</span></div>
+            <div class="arch-item"><strong>Ubuntu 22.04 LTS</strong><span>Sistema operacional base do container</span></div>
+            <div class="arch-item"><strong>Apache2</strong><span>Servidor web para publicacao do site estatico</span></div>
+            <div class="arch-item"><strong>ImageMagick</strong><span>Processamento e geracao de thumbnails de fotos</span></div>
+            <div class="arch-item"><strong>Shell Script (Bash)</strong><span>Automacao de todas as rotinas operacionais</span></div>
+            <div class="arch-item"><strong>GitHub + DockerHub</strong><span>Versionamento e publicacao da imagem Docker</span></div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>&#128193; Estrutura do Projeto</h2>
+        <div class="dir-tree">
+trabalho03-cloud-shell/
+├── Dockerfile
+├── docker-compose.yml
+├── README.md
+├── scripts/
+│   ├── 01_update.sh
+│   ├── 02_apache.sh
+│   ├── 03_estrutura.sh
+│   ├── 04_backup.sh
+│   ├── 05_deploy.sh
+│   ├── 06_processos.sh
+│   ├── 07_monitoramento.sh
+│   ├── 08_usuarios_permissoes.sh
+│   ├── 09_relatorio.sh
+│   └── menu.sh
+├── source/
+│   ├── index.html
+│   ├── sobre.html
+│   └── assets/
+├── backups/
+├── logs/
+└── evidencias/
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>&#128640; Como Executar</h2>
+        <ul>
+            <li>Clone o repositorio: <code>git clone &lt;url&gt;</code></li>
+            <li>Entre na pasta: <code>cd trabalho03-cloud-shell</code></li>
+            <li>Suba o container: <code>docker compose up -d --build</code></li>
+            <li>Acesse o container: <code>docker exec -it trabalho03-linux bash</code></li>
+            <li>Execute o menu: <code>cd /app/scripts && ./menu.sh</code></li>
+            <li>Acesse o site: <a href="http://localhost:8080">http://localhost:8080</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    <p>FotoSocial - Trabalho 03 | Cloud Computing | Sistemas de Informacao - UNIDAVI</p>
+    <p style="margin-top:4px;">Vinicius Policarpo Macedo - Tema 14: Infraestrutura para Rede Social de Fotos</p>
+</footer>
+
+</body>
+</html>

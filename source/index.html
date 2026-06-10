@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FotoSocial - Compartilhe seus Momentos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #fafafa; color: #262626; }
+        nav { background: #fff; border-bottom: 1px solid #dbdbdb; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 100; }
+        .logo { font-size: 1.6rem; font-weight: 700; color: #dc2743; }
+        .nav-links a { text-decoration: none; color: #262626; margin-left: 20px; font-weight: 600; font-size: 0.9rem; }
+        .nav-links a:hover { color: #8e8e8e; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; padding: 80px 20px; }
+        .hero h1 { font-size: 3rem; margin-bottom: 16px; }
+        .hero p { font-size: 1.2rem; margin-bottom: 32px; opacity: 0.9; }
+        .btn { background: white; color: #764ba2; padding: 14px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 1rem; display: inline-block; margin: 8px; }
+        .btn-outline { background: transparent; color: white; border: 2px solid white; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 32px 20px; }
+        .section-title { font-size: 1.4rem; font-weight: 700; margin-bottom: 24px; }
+        .photo-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px; margin-bottom: 48px; }
+        .photo-card { position: relative; aspect-ratio: 1; overflow: hidden; cursor: pointer; }
+        .photo-card .placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+        .photo-card:nth-child(1) .placeholder { background: linear-gradient(135deg, #f6d365, #fda085); }
+        .photo-card:nth-child(2) .placeholder { background: linear-gradient(135deg, #a18cd1, #fbc2eb); }
+        .photo-card:nth-child(3) .placeholder { background: linear-gradient(135deg, #84fab0, #8fd3f4); }
+        .photo-card:nth-child(4) .placeholder { background: linear-gradient(135deg, #fccb90, #d57eeb); }
+        .photo-card:nth-child(5) .placeholder { background: linear-gradient(135deg, #a1c4fd, #c2e9fb); }
+        .photo-card:nth-child(6) .placeholder { background: linear-gradient(135deg, #fd7043, #ffca28); }
+        .photo-card:nth-child(7) .placeholder { background: linear-gradient(135deg, #e0c3fc, #8ec5fc); }
+        .photo-card:nth-child(8) .placeholder { background: linear-gradient(135deg, #43e97b, #38f9d7); }
+        .photo-card:nth-child(9) .placeholder { background: linear-gradient(135deg, #f093fb, #f5576c); }
+        .photo-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.4); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.2s; color: white; font-weight: 700; font-size: 1.2rem; }
+        .photo-card:hover .photo-overlay { opacity: 1; }
+        .features { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-bottom: 48px; }
+        .feature-card { background: white; border: 1px solid #dbdbdb; border-radius: 12px; padding: 28px 20px; text-align: center; }
+        .feature-icon { font-size: 2.5rem; margin-bottom: 12px; }
+        .feature-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
+        .feature-card p { font-size: 0.875rem; color: #8e8e8e; line-height: 1.5; }
+        .infra-banner { background: #262626; color: white; border-radius: 12px; padding: 32px; margin-bottom: 48px; }
+        .infra-banner h2 { font-size: 1.3rem; margin-bottom: 16px; }
+        .tech-tags { display: flex; flex-wrap: wrap; gap: 10px; }
+        .tag { background: #363636; color: #fafafa; padding: 6px 14px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+        footer { background: white; border-top: 1px solid #dbdbdb; text-align: center; padding: 24px; color: #8e8e8e; font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <span class="logo">&#128247; FotoSocial</span>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="#">Explorar</a>
+        <a href="#">Entrar</a>
+    </div>
+</nav>
+
+<div class="hero">
+    <h1>&#128247; Compartilhe seus Momentos</h1>
+    <p>A rede social feita para amantes de fotografia.<br>Publique, explore e conecte-se atraves das imagens.</p>
+    <a href="#" class="btn">Criar conta gratis</a>
+    <a href="sobre.html" class="btn btn-outline">Saiba mais</a>
+</div>
+
+<div class="container">
+
+    <h2 class="section-title">&#128204; Em destaque</h2>
+    <div class="photo-grid">
+        <div class="photo-card"><div class="placeholder">&#127749;</div><div class="photo-overlay">&#10084; 1.2k</div></div>
+        <div class="photo-card"><div class="placeholder">&#127961;</div><div class="photo-overlay">&#10084; 843</div></div>
+        <div class="photo-card"><div class="placeholder">&#127807;</div><div class="photo-overlay">&#10084; 2.1k</div></div>
+        <div class="photo-card"><div class="placeholder">&#129419;</div><div class="photo-overlay">&#10084; 567</div></div>
+        <div class="photo-card"><div class="placeholder">&#127754;</div><div class="photo-overlay">&#10084; 1.8k</div></div>
+        <div class="photo-card"><div class="placeholder">&#127810;</div><div class="photo-overlay">&#10084; 934</div></div>
+        <div class="photo-card"><div class="placeholder">&#127800;</div><div class="photo-overlay">&#10084; 3.4k</div></div>
+        <div class="photo-card"><div class="placeholder">&#127956;</div><div class="photo-overlay">&#10084; 711</div></div>
+        <div class="photo-card"><div class="placeholder">&#127756;</div><div class="photo-overlay">&#10084; 4.2k</div></div>
+    </div>
+
+    <h2 class="section-title">&#10024; Por que usar o FotoSocial?</h2>
+    <div class="features">
+        <div class="feature-card">
+            <div class="feature-icon">&#128444;</div>
+            <h3>Albums Organizados</h3>
+            <p>Organize suas fotos em albums publicos ou privados com facilidade.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#9889;</div>
+            <h3>Processamento Rapido</h3>
+            <p>Thumbnails gerados automaticamente via ImageMagick para carregamento agil.</p>
+        </div>
+        <div class="feature-card">
+            <div class="feature-icon">&#128274;</div>
+            <h3>Privacidade e Controle</h3>
+            <p>Voce decide quem ve suas fotos. Permissoes granulares por album.</p>
+        </div>
+    </div>
+
+    <div class="infra-banner">
+        <h2>&#128421; Infraestrutura Cloud - Trabalho 03</h2>
+        <p style="color:#aaa; margin-bottom:16px;">
+            Este site e servido por um container Ubuntu com Apache2, gerenciado via Docker e Shell Scripts automatizados.
+            <br>Aluno: <strong style="color:white;">Vinicius Policarpo Macedo</strong> | Tema 14 | UNIDAVI - Cloud Computing
+        </p>
+        <div class="tech-tags">
+            <span class="tag">Docker</span>
+            <span class="tag">Ubuntu 22.04</span>
+            <span class="tag">Apache2</span>
+            <span class="tag">ImageMagick</span>
+            <span class="tag">Shell Script</span>
+            <span class="tag">Cloud Computing</span>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>FotoSocial - Trabalho 03 | Cloud Computing | Sistemas de Informacao - UNIDAVI</p>
+    <p style="margin-top:4px;">Vinicius Policarpo Macedo - Tema 14: Infraestrutura para Rede Social de Fotos</p>
+</footer>
+
+</body>
+</html>
