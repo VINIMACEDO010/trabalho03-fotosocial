@@ -10,7 +10,7 @@ Vinicius Policarpo Macedo
 
 Este projeto simula a infraestrutura operacional de uma rede social de compartilhamento de fotos, executada em um container Ubuntu gerenciado via Docker. O ambiente representa um cenario realista de cloud computing onde um servidor Linux precisa servir paginas web, processar imagens via ImageMagick, controlar permissoes de acesso por perfil de usuario, realizar backups automatizados e monitorar os recursos do sistema.
 
-O trabalho foi desenvolvido no contexto da disciplina de Cloud Computing do curso de Sistemas de Informacao da UNIDAVI, simulando o papel de um profissional DevOps junior responsavel por toda a automacao operacional da plataforma.
+Este trabalho foi desenvolvido no contexto da disciplina de Cloud Computing do curso de Sistemas de Informacao da UNIDAVI, simulando o papel de um profissional DevOps junior responsavel por toda a automacao operacional da plataforma.
 
 ## Tecnologias Utilizadas
 
@@ -199,7 +199,7 @@ Foi utilizada inteligencia artificial como ferramenta de apoio durante o desenvo
 - Revisao e correcao de erros de sintaxe nos scripts Shell
 - Sugestao de boas praticas para organizacao de diretorios e permissoes Linux
 
-Todos os scripts foram analisados, compreendidos e testados pelo aluno antes da entrega. O aluno e capaz de explicar o funcionamento de cada script, a logica de cada funcao e as decisoes tecnicas tomadas ao longo do projeto.
+Todos os scripts foram analisados, compreendidos e testados antes da entrega. O funcionamento de cada script, a logica de cada funcao e as decisoes tecnicas tomadas ao longo do projeto podem ser explicados com clareza.
 
 Ferramenta utilizada: Claude (Anthropic)
 
