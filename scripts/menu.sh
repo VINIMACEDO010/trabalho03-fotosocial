@@ -61,7 +61,7 @@ while true; do
             echo "Opcoes: listar | buscar <nome> | matar <PID>"
             echo -n "Informe a acao: "
             read -r ACAO ARG
-            bash "$SCRIPT_DIR/06_processos.sh" $ACAO $ARG
+            bash "$SCRIPT_DIR/06_processos.sh" "$ACAO" "$ARG"
             echo ""
             echo "Pressione Enter para voltar..."
             read -r
